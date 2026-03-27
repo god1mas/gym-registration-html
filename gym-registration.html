@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran Member Gym PowerFit</title>
+</head>
+<body>
+    <h1>Daftar Fasilitas</h1>
+    <ul>
+        <li>Cardio Area</li>
+        <ul>
+            <li>Treatmill</li>
+            <li>Sepeda Statis</li>
+            <li>Elliptical</li>
+        </ul>
+        <li>Strength Area</li>
+        <ul>
+            <li>Dumbell</li>
+            <li>Barbell</li>
+            <li>Lat Pulldown</li>
+        </ul>
+        <li>Functional Training</li>
+        <ul>
+            <li>Barbell Rope</li>
+            <li>Kettbell</li>
+        </ul>
+    </ul>
+
+    <hr>
+
+    <h1>Tabel Paket Membership</h1>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Harga</th>
+            <th>Durasi</th>
+            <th>Benefit</th>
+        </tr>
+        <tr>
+            <td>Basic</td>
+            <td>Rp 100.000</td>
+            <td>1 Bulan</td>
+            <td>Akses 24 Jam</td>
+        </tr>
+        <tr></tr>
+            <td>Pro</td>
+            <td>Rp 200.000</td>
+            <td>1 Bulan</td>
+            <td>Akses 24 Jam, Personal Training 1x/Minggu</td>
+        </tr>
+        <tr>
+            <td>Elite</td>
+            <td>Rp 300.000</td>
+            <td>1 Bulan</td>
+            <td>Akses 24 Jam, Personal Training 3x/Minggu, Akses Kelas Group</td>
+    </table>
+
+    <br><br><br>
+
+    <hr>
+
+    <h1>Form Pendaftaran</h1>
+    <form action="">
+        <label for="nama">Nama Lengkap: </label>
+        <input type="text" required>
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" required>
+        <br>
+
+        <label for="nomor">Nomor Telepon: </label>
+        <input type="tel" required>
+        <br>
+
+        <label for="tanggal">Tanggal Mulai:</label>
+        <input type="date" required>
+        <br>
+
+        <label for="paket">Pilih Paket:</label>
+        <select name="paket" id="paket" required>
+            <option value="basic">Basic</option>
+            <option value="pro">Pro</option>
+            <option value="elite">Elite</option>
+        </select>
+        <br>
+
+        <label for="jeniskelamin">Jenis Kelamin:</label>
+        <select name="jeniskelamin" id="jeniskelamin" required>
+            <option value="lakilaki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+        <br>
+
+        <label for="tujuanlatihan">Tujuan Latihan:</label> <br>
+        <input type="checkbox"> Menurunkan Beart Badan <br>
+        <input type="checkbox"> Meningkatkan Massa Otot <br>
+        <input type="checkbox"> Meningkatkan Kebugaran <br>
+
+        <label for="Catatan">Catatan:</label> <br>
+        <textarea name="catatan" id="catatan" placeholder="catatan tambahan"></textarea>
+        <br>
+
+        <input type="checkbox" id="persetujuan" required>
+        <label for="persetujuan">Setuju dengan persyaratan</label>
+        <br>
+
+    </form>
+
+    <hr>
+</body>
+</html>

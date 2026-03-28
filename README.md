@@ -1,15 +1,29 @@
-# Gym Registration HTML Project
+# Gym PowerFit Website
 
-Project latihan HTML dasar sebagai bagian dari roadmap belajar Web Development.
+Website latihan HTML sebagai bagian dari roadmap belajar Web Development selama 4 bulan.
 
-## Fitur
-- Nested List
-- Table Membership
-- Form Pendaftaran
-- Semantic HTML dasar
+## 📌 Deskripsi
+Project ini dibuat untuk melatih:
+- Struktur dasar HTML
+- Semantic HTML
+- Multi-page website
+- Table dan Form
+- Embed YouTube
+- Embed Google Maps
 
-## Dibuat Dengan
+Website terdiri dari beberapa halaman:
+- Home
+- Program
+- Contact
+
+## 🛠 Teknologi yang Digunakan
 - HTML5
 
-## Tujuan Project
-Melatih pemahaman struktur HTML, table, dan form.
+## 🎯 Tujuan Pembelajaran
+Membangun fondasi yang kuat sebelum masuk ke CSS, JavaScript, dan backend development.
+
+## 🚀 Live Preview
+(isi nanti dengan link GitHub Pages kamu)
+
+## 👤 Author
+Dimas Abdus Syukur

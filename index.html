@@ -6,108 +6,186 @@
     <title>Pendaftaran Member Gym PowerFit</title>
 </head>
 <body>
-    <h1>Daftar Fasilitas</h1>
-    <ul>
-        <li>Cardio Area</li>
+
+    <header>
+        <h1>Gym PowerFit</h1>
+        <p>Selamat datang di Gym PoweFit</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <a href="program.html">Program</a>
+                    <a href="membership.html">Membership</a>
+                    <a href="kontak.html">Kontak</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero-section">
+            <h1>Selamat Datang di Gym PowerFit</h1>
+            <p>Gym PowerFit adalah tempat yang tepat untuk mencapai tujuan kebugaran Anda. Kami menawarkan berbagai fasilitas dan program latihan yang dirancang untuk membantu Anda mencapai hasil terbaik.</p>
+            <a href="">Mulai</a>
+        </section>
+
+        <section id="program-unggulan">
+            <article id="fat-loss">
+                <h3>Fat loss program</h3>
+                <p>Program ini dirancang untuk membantu Anda menurunkan berat badan dengan cara yang sehat dan efektif.</p>
+                <ul>
+                    <li>Latihan kardio 3x seminggu</li>
+                    <li>Program nutrisi</li>
+                    <li>Monitoring kemajuan</li>
+                </ul>
+            </article>
+            <article id="muscle-gain-program">
+                <h3>Muscle gain program</h3>
+                <p>Program ini dirancang untuk membantu Anda membangun massa otot dan meningkatkan kekuatan secara efektif.</p>
+                <ul>
+                    <li>Latihan kekuatan 4x seminggu</li>
+                    <li>Program nutrisi</li>
+                    <li>Monitoring kemajuan</li>
+                </ul>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="paket-membership">
+            <h1>Tabel Paket Membership</h1>
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <th>Harga</th>
+                    <th>Durasi</th>
+                    <th>Benefit</th>
+                </tr>
+                <tr>
+                    <td>Basic</td>
+                    <td>Rp 100.000</td>
+                    <td>1 Bulan</td>
+                    <td>Akses 24 Jam</td>
+                </tr>
+                <tr></tr>
+                    <td>Pro</td>
+                    <td>Rp 200.000</td>
+                    <td>1 Bulan</td>
+                    <td>Akses 24 Jam, Personal Training 1x/Minggu</td>
+                </tr>
+                <tr>
+                    <td>Elite</td>
+                    <td>Rp 300.000</td>
+                    <td>1 Bulan</td>
+                    <td>Akses 24 Jam, Personal Training 3x/Minggu, Akses Kelas Group</td>
+            </table>
+
+            <br><br><br>
+        </section>
+
+        <hr>
+
+        <aside>
+            <h3>Promo Bulan Ini</h3>
+            <p>Dapatkan diskon 20% untuk pendaftaran membership baru!</p>
+            <h3>Jam Operasional</h3>
+            <p>Senin - Jumat: 06.00 - 22.00</p>
+            <p>Sabtu - Minggu: 08.00 - 20.00</p>
+            <h3>Kontak</h3>
+            <p>Email: info@gymPowerFit.com</p>
+            <p>Telepon: (123) 456-7890</p>
+        </aside>
+
+        <hr>
+        
+        <section id="">
+            <h1>Daftar Fasilitas</h1>
+            <ul>
+                <li>Cardio Area</li>
+                <ul>
+                    <li>Treatmill</li>
+                    <li>Sepeda Statis</li>
+                    <li>Elliptical</li>
+                </ul>
+                <li>Strength Area</li>
+                <ul>
+                    <li>Dumbell</li>
+                    <li>Barbell</li>
+                    <li>Lat Pulldown</li>
+                </ul>
+                <li>Functional Training</li>
+                <ul>
+                    <li>Barbell Rope</li>
+                    <li>Kettbell</li>
+                </ul>
+            </ul>
+
+            <hr>
+        </section>
+
+        <section>
+            <h1>Form Pendaftaran</h1>
+            <form action="">
+                <label for="nama">Nama Lengkap: </label>
+                <input type="text" required>
+                <br>
+
+                <label for="email">Email: </label>
+                <input type="email" required>
+                <br>
+
+                <label for="nomor">Nomor Telepon: </label>
+                <input type="tel" required>
+                <br>
+
+                <label for="tanggal">Tanggal Mulai:</label>
+                <input type="date" required>
+                <br>
+
+                <label for="paket">Pilih Paket:</label>
+                <select name="paket" id="paket" required>
+                    <option value="basic">Basic</option>
+                    <option value="pro">Pro</option>
+                    <option value="elite">Elite</option>
+                </select>
+                <br>
+
+                <label for="jeniskelamin">Jenis Kelamin:</label>
+                <select name="jeniskelamin" id="jeniskelamin" required>
+                    <option value="lakilaki">Laki-laki</option>
+                    <option value="perempuan">Perempuan</option>
+                </select>
+                <br>
+
+                <label for="tujuanlatihan">Tujuan Latihan:</label> <br>
+                <input type="checkbox"> Menurunkan Beart Badan <br>
+                <input type="checkbox"> Meningkatkan Massa Otot <br>
+                <input type="checkbox"> Meningkatkan Kebugaran <br>
+
+                <label for="Catatan">Catatan:</label> <br>
+                <textarea name="catatan" id="catatan" placeholder="catatan tambahan"></textarea>
+                <br>
+
+                <input type="checkbox" id="persetujuan" required>
+                <label for="persetujuan">Setuju dengan persyaratan</label>
+                <br>
+
+            </form>
+
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gym PowerFit. All rights reserved.</p>
+        <p>Dimas Abdus Syukur</p>
         <ul>
-            <li>Treatmill</li>
-            <li>Sepeda Statis</li>
-            <li>Elliptical</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
         </ul>
-        <li>Strength Area</li>
-        <ul>
-            <li>Dumbell</li>
-            <li>Barbell</li>
-            <li>Lat Pulldown</li>
-        </ul>
-        <li>Functional Training</li>
-        <ul>
-            <li>Barbell Rope</li>
-            <li>Kettbell</li>
-        </ul>
-    </ul>
-
-    <hr>
-
-    <h1>Tabel Paket Membership</h1>
-    <table>
-        <tr>
-            <th>Nama</th>
-            <th>Harga</th>
-            <th>Durasi</th>
-            <th>Benefit</th>
-        </tr>
-        <tr>
-            <td>Basic</td>
-            <td>Rp 100.000</td>
-            <td>1 Bulan</td>
-            <td>Akses 24 Jam</td>
-        </tr>
-        <tr></tr>
-            <td>Pro</td>
-            <td>Rp 200.000</td>
-            <td>1 Bulan</td>
-            <td>Akses 24 Jam, Personal Training 1x/Minggu</td>
-        </tr>
-        <tr>
-            <td>Elite</td>
-            <td>Rp 300.000</td>
-            <td>1 Bulan</td>
-            <td>Akses 24 Jam, Personal Training 3x/Minggu, Akses Kelas Group</td>
-    </table>
-
-    <br><br><br>
-
-    <hr>
-
-    <h1>Form Pendaftaran</h1>
-    <form action="">
-        <label for="nama">Nama Lengkap: </label>
-        <input type="text" required>
-        <br>
-
-        <label for="email">Email: </label>
-        <input type="email" required>
-        <br>
-
-        <label for="nomor">Nomor Telepon: </label>
-        <input type="tel" required>
-        <br>
-
-        <label for="tanggal">Tanggal Mulai:</label>
-        <input type="date" required>
-        <br>
-
-        <label for="paket">Pilih Paket:</label>
-        <select name="paket" id="paket" required>
-            <option value="basic">Basic</option>
-            <option value="pro">Pro</option>
-            <option value="elite">Elite</option>
-        </select>
-        <br>
-
-        <label for="jeniskelamin">Jenis Kelamin:</label>
-        <select name="jeniskelamin" id="jeniskelamin" required>
-            <option value="lakilaki">Laki-laki</option>
-            <option value="perempuan">Perempuan</option>
-        </select>
-        <br>
-
-        <label for="tujuanlatihan">Tujuan Latihan:</label> <br>
-        <input type="checkbox"> Menurunkan Beart Badan <br>
-        <input type="checkbox"> Meningkatkan Massa Otot <br>
-        <input type="checkbox"> Meningkatkan Kebugaran <br>
-
-        <label for="Catatan">Catatan:</label> <br>
-        <textarea name="catatan" id="catatan" placeholder="catatan tambahan"></textarea>
-        <br>
-
-        <input type="checkbox" id="persetujuan" required>
-        <label for="persetujuan">Setuju dengan persyaratan</label>
-        <br>
-
-    </form>
-
-    <hr>
+    </footer>
+    
 </body>
 </html>
